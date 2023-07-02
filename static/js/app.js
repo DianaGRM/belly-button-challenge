@@ -92,7 +92,9 @@ d3.json(url).then(d=>{
         hovertext: text1,
         marker:{
         size: y_values,
-        color: x_values}
+        color: x_values,
+        colorscale: "Earth"
+         }
 
         }];
         var layout = {
